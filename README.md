@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 # QuickLinks 🔗
 
  A simple URL Shortener project built with Next.js and MongoDB.I created this project while exploring the Next.js framework and learning how to handle dynamic routing, API routes, and database integration.
@@ -25,7 +25,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 -Deployment Ready: Environment variables for host and DB connection
 
-## 📖 Thing I Learned
+## 📖 Things I Learned
 
 -Basics of Next.js App Router (app/ directory)
 
