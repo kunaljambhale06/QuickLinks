@@ -9,13 +9,12 @@ const Navbar = () => {
         </div>
         <ul className='flex justify-center gap-5 items-center'>
             <Link href="/"><li>Home</li></Link>
-            <Link href="/about"><li>About</li></Link>
+            <Link href="/about"><li></li></Link>
             <Link href="/shorten"><li>Shorten</li></Link>
             <Link href="/contact"><li>Contact Me</li></Link>
             <li className='flex gap-5'>
                 <Link href="/shorten"><button className='bg-orange-400 shadow-lg p-3 py-0.5 rounded-lg font-bold'>Try Now</button></Link>
-                <Link href="/github"><button className='bg-orange-400 shadow-lg p-3 py-0.5 rounded-lg font-bold'>GitHub</button></Link>
-            </li>
+                <Link href="https://github.com/kunaljambhale06/QuickLinks" target='_blank'><button className='bg-orange-400 shadow-lg p-3 py-0.5 rounded-lg font-bold'>GitHub</button></Link></li>
         </ul>
     </nav>
   )
