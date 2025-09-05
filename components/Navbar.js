@@ -16,6 +16,7 @@ const Navbar = () => {
                 <Link href="/shorten"><button className='bg-orange-400 shadow-lg p-3 py-0.5 rounded-lg font-bold'>Try Now</button></Link>
                 <Link href="https://github.com/kunaljambhale06/QuickLinks" target='_blank'><button className='bg-orange-400 shadow-lg p-3 py-0.5 rounded-lg font-bold'>GitHub</button></Link>
             </li>
+
         </ul>
     </nav>
   )
