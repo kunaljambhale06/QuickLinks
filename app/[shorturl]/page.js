@@ -23,8 +23,7 @@ import { redirect } from "next/navigation";
 import clientPromise from "../../lib/mongodb";
 
 export default async function Page({ params }) {
-  // 👇 await params before using it
-  const  shorturl  = await params;
+  const { shorturl } = params;
 
   const client = await clientPromise;
   const db = client.db("QuickLink");

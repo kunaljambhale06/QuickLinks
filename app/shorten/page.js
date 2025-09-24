@@ -29,8 +29,14 @@ const Shorten = () => {
                 seturl("");
                 setshorturl("");
                 console.log(result)
-                setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shorturl}`);
-                alert(result.message)
+                    if (result.success) {
+                        // Use shorturl from API response if available, else fallback to input
+                        const shortPath = result.shorturl || shorturl;
+                        setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shortPath}`);
+                    } else {
+                        setgenerated("");
+                    }
+                    alert(result.message)
             })
             .catch((error) => console.error(error));
     }
