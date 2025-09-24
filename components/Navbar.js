@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='h-18 bg-orange-300 flex px-4 justify-between items-center text-white '>
+    <nav className='h-18 bg-orange-300 flex px-4 justify-between items-center text-black '>
         <div className='logo font-bold text-lg'>
             QuickLink
         </div>
