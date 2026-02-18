@@ -3,9 +3,6 @@ FROM node:18-alpine AS builder
 
 WORKDIR /app
 
-# Accept Mongo URI during build
-ARG MONGODB_URI
-ENV MONGODB_URI=$MONGODB_URI
 
 COPY package*.json ./
 RUN npm install
