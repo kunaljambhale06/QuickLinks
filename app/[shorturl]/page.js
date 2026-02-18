@@ -15,7 +15,7 @@ export default async function Page({ params }) {
   if (doc) {
     redirect(doc.url); // redirect to original URL
   } else {
-    redirect(process.env.NEXT_PUBLIC_HOST || "/"); // fallback
+    redirect("/"); // fallback
   }
 
   // This will never render because redirect() ends the response,

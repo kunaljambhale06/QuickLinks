@@ -22,7 +22,7 @@ const Shorten = () => {
             redirect: "follow"
         };
 
-        fetch("http://localhost:3000/api/generate", requestOptions)
+        fetch("/api/generate", requestOptions)
             .then((response) => response.json())
             .then((result) => {
 
@@ -32,7 +32,7 @@ const Shorten = () => {
                     if (result.success) {
                         // Use shorturl from API response if available, else fallback to input
                         const shortPath = result.shorturl || shorturl;
-                        setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shortPath}`);
+                        setgenerated(`${window.location.origin}/${shortPath}`);
                     } else {
                         setgenerated("");
                     }
