@@ -1,6 +1,13 @@
 
 # QuickLinks 🔗
 
+![Next.js](https://img.shields.io/badge/Next.js-15+-black?logo=next.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-green?logo=mongodb)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)
+![Docker Compose](https://img.shields.io/badge/Docker--Compose-Orchestration-blue)
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
+![Node.js](https://img.shields.io/badge/Node.js-Runtime-339933?logo=node.js)
+
  A simple URL Shortener project built with Next.js and MongoDB.I created this project while exploring the Next.js framework and learning how to handle dynamic routing, API routes, and database integration.
 
 ## 🚀 Features
