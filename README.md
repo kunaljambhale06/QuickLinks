@@ -164,16 +164,7 @@ Building this project covered the full DevOps + full-stack lifecycle:
 
 ---
 
-## 🎯 Roadmap
 
-- [ ] 🔐 User authentication (JWT / OAuth)
-- [ ] 📊 Click analytics per shortened URL
-- [ ] 🎨 Custom alias support
-- [ ] 🌍 Custom domain mapping
-- [ ] 📈 Rate limiting & input validation
-- [ ] 🧪 Unit & integration testing
-- [ ] 🚀 CI/CD pipeline with GitHub Actions
-- [ ] ☸️ Kubernetes deployment
 
 ---
 
