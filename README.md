@@ -166,8 +166,6 @@ Building this project covered the full DevOps + full-stack lifecycle:
 
 
 
----
-
 ## 👨‍💻 Author
 
 **Kunal Jambhale**
