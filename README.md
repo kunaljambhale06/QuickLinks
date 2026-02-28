@@ -12,7 +12,7 @@
 
 A full-stack URL shortener built with **Next.js App Router** and **MongoDB** — fully containerized with Docker and deployed on Vercel.
 
-[🚀 Live Demo](https://your-vercel-url.vercel.app) · [🐳 DockerHub](https://hub.docker.com/r/kunaljambhale06/quicklinks-web) · [📂 Repository](https://github.com/kunaljambhale06/QuickLinks)
+[🚀 Live Demo](https://quick-links-five.vercel.app/) · [🐳 DockerHub](https://hub.docker.com/r/kunaljambhale06/quicklinks-web) · [📂 Repository](https://github.com/kunaljambhale06/QuickLinks)
 
 </div>
 
